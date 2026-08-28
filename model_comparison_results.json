@@ -1,0 +1,12 @@
+{
+    "qwen2.5:0.5b": {
+        "total_attempts": 16,
+        "successful_jailbreaks": 14,
+        "asr_percentage": 87.5
+    },
+    "llama3.2:1b": {
+        "total_attempts": 16,
+        "successful_jailbreaks": 15,
+        "asr_percentage": 93.75
+    }
+}
