@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+.venv-1/
+.venv-2/
+llm_defense_proxy/venv/
+venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.swp
+
+# IDE & OS files
+.vscode/
+.DS_Store
+Thumbs.db

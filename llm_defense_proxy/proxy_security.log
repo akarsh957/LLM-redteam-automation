@@ -1,0 +1,126 @@
+2026-08-25 10:46:28,740 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:48:56,288 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:48:56,322 - WARNING - BLOCKED: [Intent / Safety Policy Violation] - Details: Safety policy violation: Unsafe content (Latency: 747.544ms)
+2026-08-25 10:49:18,815 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:49:18,818 - WARNING - BLOCKED: [Intent / Cyberattacks / Malicious Software] - Details: Safety policy violation: Cyberattacks / Malicious Software (Latency: 483.006ms)
+2026-08-25 10:51:27,737 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:51:27,739 - WARNING - BLOCKED: [Intent / Safety Policy Violation] - Details: Safety policy violation: Unsafe content (Latency: 1049.630ms)
+2026-08-25 10:53:03,420 - INFO - Retrying request to /openai/v1/chat/completions in 0.397135 seconds
+2026-08-25 10:53:11,852 - INFO - Retrying request to /openai/v1/chat/completions in 0.897122 seconds
+2026-08-25 10:53:12,756 - WARNING - BLOCKED: [Intent / Safety Policy Violation] - Details: API Error: Connection error. (Latency: 20483.489ms)
+2026-08-25 11:03:47,836 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 11:03:49,486 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 11:04:56,854 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 11:04:58,292 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 11:06:12,145 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 11:06:13,359 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 11:07:27,140 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 11:07:27,141 - WARNING - BLOCKED: [Intent / Safety Policy Violation] - Details: Safety policy violation: Unsafe content (Latency: 2138.129ms)
+2026-08-25 11:08:55,310 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 11:08:56,577 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 11:11:44,411 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 11:11:45,842 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 11:14:07,653 - WARNING - BLOCKED: [Regex / Delimiter Override] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 12:37:51,269 - WARNING - BLOCKED: [Safety Policy] - Details: API Error: 'NoneType' object has no attribute 'chat' (Latency: 2.994ms)
+2026-08-29 12:37:51,273 - WARNING - BLOCKED: [Safety Policy] - Details: API Error: 'NoneType' object has no attribute 'chat'
+2026-08-29 12:37:51,283 - WARNING - BLOCKED: [Safety Policy] - Details: API Error: 'NoneType' object has no attribute 'chat' (Latency: 1.523ms)
+2026-08-29 12:37:51,301 - WARNING - BLOCKED: [Safety Policy] - Details: API Error: 'NoneType' object has no attribute 'chat'
+2026-08-29 12:37:51,309 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 12:37:51,317 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 12:37:51,323 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 12:37:51,331 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 12:37:51,338 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload) (Latency: 2.000ms)
+2026-08-29 12:37:51,350 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload)
+2026-08-29 12:37:51,355 - WARNING - BLOCKED: [Safety Policy] - Details: API Error: 'NoneType' object has no attribute 'chat' (Latency: 1.039ms)
+2026-08-29 12:37:51,370 - WARNING - BLOCKED: [Safety Policy] - Details: API Error: 'NoneType' object has no attribute 'chat'
+2026-08-29 12:37:51,409 - WARNING - BLOCKED: [Safety Policy] - Details: API Error: 'NoneType' object has no attribute 'chat' (Latency: 0.999ms)
+2026-08-29 12:37:51,410 - WARNING - BLOCKED: [Safety Policy] - Details: API Error: 'NoneType' object has no attribute 'chat'
+2026-08-29 12:37:51,444 - WARNING - BLOCKED: [Safety Policy] - Details: API Error: 'NoneType' object has no attribute 'chat' (Latency: 1.013ms)
+2026-08-29 12:37:51,446 - WARNING - BLOCKED: [Safety Policy] - Details: API Error: 'NoneType' object has no attribute 'chat'
+2026-08-29 12:38:00,900 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 12:38:00,901 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 12:50:12,549 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload) (Latency: 1.001ms)
+2026-08-29 12:50:12,552 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload)
+2026-08-29 12:50:33,184 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload) (Latency: 1.011ms)
+2026-08-29 12:50:33,187 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload)
+2026-08-29 12:50:53,720 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload) (Latency: 0.992ms)
+2026-08-29 12:50:53,728 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload)
+2026-08-29 12:51:14,469 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload) (Latency: 0.915ms)
+2026-08-29 12:51:14,472 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload)
+2026-08-29 13:58:12,316 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-29 13:58:28,568 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-29 13:58:30,629 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload) (Latency: 1.008ms)
+2026-08-29 13:58:30,637 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload)
+2026-08-29 13:58:55,073 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-29 13:59:08,578 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-29 14:02:05,727 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload) (Latency: 1.006ms)
+2026-08-29 14:02:05,731 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload)
+2026-08-29 14:02:18,730 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-29 14:02:29,272 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-29 14:02:41,560 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-29 14:02:44,394 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:02:44,395 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:02:46,443 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload) (Latency: 0.994ms)
+2026-08-29 14:02:46,444 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload)
+2026-08-29 14:02:48,514 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:02:48,515 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:02:50,598 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:02:50,599 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:02:52,675 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 1.099ms)
+2026-08-29 14:02:52,679 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:02:54,720 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:02:54,722 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:02:58,828 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:02:58,830 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:03:00,900 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:03:00,902 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:03:02,967 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:03:02,970 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:03:05,034 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:03:05,035 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:03:07,090 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload) (Latency: 1.194ms)
+2026-08-29 14:03:07,091 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload)
+2026-08-29 14:03:09,149 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:03:09,150 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:03:11,221 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:03:11,223 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:07:41,267 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:07:41,269 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:07:43,341 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:07:43,343 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:07:45,405 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload) (Latency: 1.606ms)
+2026-08-29 14:07:45,407 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload)
+2026-08-29 14:07:47,470 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:07:47,472 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:07:49,521 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:07:49,525 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:07:51,578 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:07:51,580 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:07:53,656 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:07:53,660 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:07:55,717 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload) (Latency: 1.010ms)
+2026-08-29 14:07:55,719 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload)
+2026-08-29 14:07:57,776 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:07:57,777 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:07:59,857 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:07:59,859 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:08:01,930 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:08:01,932 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:08:04,015 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:08:04,017 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:08:06,075 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload) (Latency: 1.613ms)
+2026-08-29 14:08:06,079 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload)
+2026-08-29 14:08:08,134 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:08:08,135 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:08:10,206 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:08:10,210 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:08:12,277 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:08:12,279 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:08:14,349 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:08:14,352 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:08:16,405 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload) (Latency: 1.005ms)
+2026-08-29 14:08:16,406 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: High entropy obfuscation detected (potential cipher/base64 payload)
+2026-08-29 14:08:18,459 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:08:18,463 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-29 14:08:20,512 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-29 14:08:20,514 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
