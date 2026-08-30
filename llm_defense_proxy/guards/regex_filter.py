@@ -5,11 +5,14 @@ class RegexGuard:
     def __init__(self):
         self.injection_patterns = [
             r"(?i)ignore\s+(all\s+)?(previous|prior)\s+(instructions|directives|prompts)",
-            r"(?i)disregard\s+(all\s+)?(previous|prior)\s+(rules|guidelines)",
+            r"(?i)disregard\s+(all\s+)?(previous|prior)\s+(rules|guidelines|instructions)",
+            r"(?i)forget\s+(all\s+)?(previous|prior)\s+(instructions|directives|prompts)",
             r"(?i)\[\s*(system|system\s+prompt|developer\s+mode)\s*\]",
             r"(?i)<\s*(system|developer_instructions)\s*>",
+            r"(?i)<\|im_start\|>\s*system",
+            r"(?i)```\s*system",
             r"(?i)you\s+are\s+now\s+in\s+developer\s+mode",
-            r"(?i)dan\s+mode\s+enabled",
+            r"(?i)dan\s+mode\s+(enabled|active)",
             r"(?i)jailbreak\s+(mode|prompt)",
             r"(?i)new\s+rule:\s*",
             r"(?i)override\s+(system|safety)\s+protocols",
@@ -18,8 +21,7 @@ class RegexGuard:
             r"(?i)bypassing\s+client-side\s+certificate",
             r"(?i)extract\s+simulated\s+internal",
             r"(?i)terminate\s+security\s+logging",
-            r"(?i)format\s+string\s+vulnerability",
-            r"(?i)format\s+string\s+vulnerabilities",
+            r"(?i)format\s+string\s+vulnerabilit(y|ies)",
             r"(?i)begin\s+your\s+response\s+directly\s+with"
         ]
         self.compiled_patterns = [re.compile(p) for p in self.injection_patterns]

@@ -70,11 +70,17 @@ async def health_check():
     }
 
 
-def refusal_response(category_name: str, details: str = "") -> JSONResponse:
+def refusal_response(category_name: str, details: str = "", latency_ms: float = 0.0) -> JSONResponse:
     """Return the capstone-member-safe refusal payload for blocked prompts."""
     response_text = f"Refused: Content flagged under Safety Policy [{category_name}]."
     logging.warning(f"BLOCKED: [{category_name}] - Details: {details}")
-    return JSONResponse(status_code=200, content={"response": response_text})
+    return JSONResponse(
+        status_code=200, 
+        content={
+            "response": response_text,
+            "latency_metrics": {"total_ms": round(latency_ms, 3)}
+        }
+    )
 
 
 def log_and_block(attack_name: str, details: str, latency: float):
@@ -106,7 +112,7 @@ def log_and_block(attack_name: str, details: str, latency: float):
     with open(json_log_path, "w") as f:
         json.dump(logs, f, indent=4)
 
-    return refusal_response(attack_name if attack_name else "Safety Policy", details)
+    return refusal_response(attack_name if attack_name else "Safety Policy", details, latency)
 
 
 @app.post("/generate")
@@ -120,26 +126,28 @@ async def proxy_generate(request: Request):
     user_prompt = body.get("prompt", "")
     stream = body.get("stream", False)
 
-    start_time = time.time()
+    input_guard_start = time.time()
 
     # LAYER 1: Regex Guard
     is_regex_safe, regex_reason = regex_guard.check(user_prompt)
     if not is_regex_safe:
-        return log_and_block("Prompt Injection", regex_reason, (time.time() - start_time) * 1000)
+        return log_and_block("Prompt Injection", regex_reason, (time.time() - input_guard_start) * 1000)
 
     # LAYER 2: Entropy / Base64 Scanner
     is_entropy_safe, entropy_reason, _ = entropy_guard.check(user_prompt)
     if not is_entropy_safe:
-        return log_and_block("Obfuscation / Base64", entropy_reason, (time.time() - start_time) * 1000)
+        return log_and_block("Obfuscation / Base64", entropy_reason, (time.time() - input_guard_start) * 1000)
 
     # LAYER 3: Llama Guard Safety Intent Classifier
     intent_result = llama_guard.scan_prompt(user_prompt)
     if not intent_result.get("passed", False):
         violated_cats = intent_result.get("violated_categories", [])
         category_name = violated_cats[0] if violated_cats else "Safety Policy"
-        return log_and_block(category_name, intent_result.get("reason", "Safety policy violation detected"), (time.time() - start_time) * 1000)
+        return log_and_block(category_name, intent_result.get("reason", "Safety policy violation detected"), (time.time() - input_guard_start) * 1000)
 
-    # LAYER 4: Output Sanitizer (applied to upstream response before returning)
+    input_guard_time_ms = (time.time() - input_guard_start) * 1000
+
+    # Forward benign payload to upstream Ollama
     client = http_client if http_client is not None else httpx.AsyncClient()
     try:
         upstream_response = await client.post(
@@ -163,11 +171,25 @@ async def proxy_generate(request: Request):
             },
         )
 
+    # LAYER 4: Output Sanitizer
+    output_guard_start = time.time()
     ollama_data = upstream_response.json()
     raw_response_text = str(ollama_data.get("response", "")).strip()
     clean_response_text, _ = output_sanitizer.sanitize(raw_response_text)
+    output_guard_time_ms = (time.time() - output_guard_start) * 1000
 
-    return JSONResponse(status_code=200, content={"response": clean_response_text})
+    total_guardrail_overhead_ms = input_guard_time_ms + output_guard_time_ms
+
+    return JSONResponse(
+        status_code=200, 
+        content={
+            "response": clean_response_text,
+            "latency_metrics": {
+                "total_ms": round(total_guardrail_overhead_ms, 3),
+                "guardrail_overhead_ms": round(total_guardrail_overhead_ms, 3)
+            }
+        }
+    )
 
 
 # Backward-compatible alias: keep the legacy route but point it to the new behavior.

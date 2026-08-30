@@ -1,5 +1,7 @@
 import os
+import sys
 
+sys.path.insert(0, os.path.abspath("llm_defense_proxy"))
 os.environ.setdefault("GROQ_API_KEY", "test-key")
 
 from fastapi.testclient import TestClient
@@ -21,9 +23,9 @@ def test_generate_rejects_flagged_prompt(monkeypatch):
     })
 
     assert response.status_code == 200
-    assert response.json() == {
-        "response": "Refused: Content flagged under Safety Policy [Prompt Injection]."
-    }
+    res_data = response.json()
+    assert res_data["response"] == "Refused: Content flagged under Safety Policy [Prompt Injection]."
+    assert "latency_metrics" in res_data
 
 
 def test_generate_forwards_to_ollama_and_wraps_response(monkeypatch):
@@ -53,4 +55,7 @@ def test_generate_forwards_to_ollama_and_wraps_response(monkeypatch):
     })
 
     assert response.status_code == 200
-    assert response.json() == {"response": "hello from ollama"}
+    res_data = response.json()
+    assert res_data["response"] == "hello from ollama"
+    assert "latency_metrics" in res_data
+

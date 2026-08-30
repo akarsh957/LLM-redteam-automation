@@ -1,11 +1,16 @@
+import re
+
 class OutputSanitizer:
     def __init__(self):
-        # Define patterns or sensitive keywords you want to scrub from LLM outputs
-        self.sensitive_keywords = [
-            "password",
-            "api_key",
-            "secret_token"
+        # Define patterns or sensitive keywords to scrub from LLM outputs
+        self.sensitive_patterns = [
+            r"(?i)api[_-]?key\s*[:=]\s*['\"]?\w+['\"]?",
+            r"(?i)secret[_-]?token\s*[:=]\s*['\"]?\w+['\"]?",
+            r"(?i)password\s*[:=]\s*['\"]?\w+['\"]?",
+            r"(?i)bearer\s+[A-Za-z0-9\-\._~\+\/]+=*",
+            r"(?i)-----BEGIN\s+PRIVATE\s+KEY-----[\s\S]*?-----END\s+PRIVATE\s+KEY-----",
         ]
+        self.compiled_patterns = [re.compile(p) for p in self.sensitive_patterns]
 
     def sanitize(self, text: str) -> tuple[str, bool]:
         """
@@ -18,11 +23,9 @@ class OutputSanitizer:
         triggered = False
         cleaned_text = text
 
-        # Simple redaction logic example
-        for keyword in self.sensitive_keywords:
-            if keyword in cleaned_text.lower():
+        for pattern in self.compiled_patterns:
+            if pattern.search(cleaned_text):
                 triggered = True
-                # Redact or mask the sensitive term
-                cleaned_text = cleaned_text.replace(keyword, "[REDACTED]")
+                cleaned_text = pattern.sub("[REDACTED]", cleaned_text)
 
         return cleaned_text, triggered

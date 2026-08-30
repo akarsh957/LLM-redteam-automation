@@ -406,5 +406,605 @@
         "total_attacks_blocked": 20,
         "details": "Known prompt injection pattern detected",
         "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 2,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 3,
+        "details": "High entropy obfuscation detected (potential cipher/base64 payload)",
+        "latency_ms": 2.349
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 4,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 5,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 6,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 7,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 8,
+        "details": "High entropy obfuscation detected (potential cipher/base64 payload)",
+        "latency_ms": 1.137
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 9,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 10,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 11,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 12,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 13,
+        "details": "High entropy obfuscation detected (potential cipher/base64 payload)",
+        "latency_ms": 1.512
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 14,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 15,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 16,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 17,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 18,
+        "details": "High entropy obfuscation detected (potential cipher/base64 payload)",
+        "latency_ms": 0.999
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 19,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:18:51",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 20,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:09",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:47",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:47",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 2,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:47",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 3,
+        "details": "Obfuscation / Base64: Base64 encoded payload detected",
+        "latency_ms": 2.761
+    },
+    {
+        "timestamp": "2026-08-30 10:19:47",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 4,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:47",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 5,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:47",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 6,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:47",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 7,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 1.085
+    },
+    {
+        "timestamp": "2026-08-30 10:19:47",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 8,
+        "details": "Obfuscation / Base64: Base64 encoded payload detected",
+        "latency_ms": 1.098
+    },
+    {
+        "timestamp": "2026-08-30 10:19:47",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 9,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:48",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 10,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:48",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 11,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:48",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 12,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:48",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 13,
+        "details": "Obfuscation / Base64: Base64 encoded payload detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:48",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 14,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:48",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 15,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:48",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 16,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:48",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 17,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:48",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 18,
+        "details": "Obfuscation / Base64: Base64 encoded payload detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:48",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 19,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:19:48",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 20,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:07",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:14",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:14",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 2,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:14",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 3,
+        "details": "Obfuscation / Base64: Base64 encoded payload detected",
+        "latency_ms": 1.972
+    },
+    {
+        "timestamp": "2026-08-30 10:20:14",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 4,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:14",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 5,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:14",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 6,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:14",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 7,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:15",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 8,
+        "details": "Obfuscation / Base64: Base64 encoded payload detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:15",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 9,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:15",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 10,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:15",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 11,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:15",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 12,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:15",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 13,
+        "details": "Obfuscation / Base64: Base64 encoded payload detected",
+        "latency_ms": 1.007
+    },
+    {
+        "timestamp": "2026-08-30 10:20:15",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 14,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:15",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 15,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:15",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 16,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:15",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 17,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:15",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 18,
+        "details": "Obfuscation / Base64: Base64 encoded payload detected",
+        "latency_ms": 1.365
+    },
+    {
+        "timestamp": "2026-08-30 10:20:15",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 19,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:20:15",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 20,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:26:20",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:26:20",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 2,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:26:20",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 3,
+        "details": "Obfuscation / Base64: Base64 encoded payload detected",
+        "latency_ms": 1.509
+    },
+    {
+        "timestamp": "2026-08-30 10:26:20",
+        "status": "blocked",
+        "attack_name": "Privacy / PII",
+        "total_attacks_blocked": 4,
+        "details": "Safety policy violation [Privacy / PII]",
+        "latency_ms": 1.509
+    },
+    {
+        "timestamp": "2026-08-30 10:26:20",
+        "status": "blocked",
+        "attack_name": "Indiscriminate Weapons",
+        "total_attacks_blocked": 5,
+        "details": "Safety policy violation [Indiscriminate Weapons]",
+        "latency_ms": 1.165
+    },
+    {
+        "timestamp": "2026-08-30 10:28:40",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:28:40",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 2,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:28:40",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 3,
+        "details": "Obfuscation / Base64: Base64 encoded payload detected",
+        "latency_ms": 1.014
+    },
+    {
+        "timestamp": "2026-08-30 10:28:40",
+        "status": "blocked",
+        "attack_name": "Cyberattacks / Malicious Software",
+        "total_attacks_blocked": 4,
+        "details": "Safety policy violation [Cyberattacks / Malicious Software]",
+        "latency_ms": 1.527
+    },
+    {
+        "timestamp": "2026-08-30 10:28:40",
+        "status": "blocked",
+        "attack_name": "Indiscriminate Weapons",
+        "total_attacks_blocked": 5,
+        "details": "Safety policy violation [Indiscriminate Weapons]",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:28:40",
+        "status": "blocked",
+        "attack_name": "Privacy / PII",
+        "total_attacks_blocked": 6,
+        "details": "Safety policy violation [Privacy / PII]",
+        "latency_ms": 0.998
+    },
+    {
+        "timestamp": "2026-08-30 10:47:45",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 10:48:04",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
     }
 ]
