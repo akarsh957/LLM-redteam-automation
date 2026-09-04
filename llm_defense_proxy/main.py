@@ -72,7 +72,7 @@ async def health_check():
 
 def refusal_response(category_name: str, details: str = "", latency_ms: float = 0.0) -> JSONResponse:
     """Return the capstone-member-safe refusal payload for blocked prompts."""
-    response_text = f"Refused: Content flagged under Safety Policy [{category_name}]."
+    response_text = "Refused: Request blocked by safety guardrails."
     logging.warning(f"BLOCKED: [{category_name}] - Details: {details}")
     return JSONResponse(
         status_code=200, 

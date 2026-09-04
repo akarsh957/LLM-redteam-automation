@@ -24,7 +24,7 @@ def test_generate_rejects_flagged_prompt(monkeypatch):
 
     assert response.status_code == 200
     res_data = response.json()
-    assert res_data["response"] == "Refused: Content flagged under Safety Policy [Prompt Injection]."
+    assert res_data["response"] == "Refused: Request blocked by safety guardrails."
     assert "latency_metrics" in res_data
 
 

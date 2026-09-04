@@ -1,7 +1,7 @@
 import base64
 import collections
+import math
 import re
-from scipy.stats import entropy
 from typing import Dict, Any, Tuple, List
 
 class EntropyScanner:
@@ -13,8 +13,8 @@ class EntropyScanner:
         if not text:
             return 0.0
         counts = collections.Counter(text)
-        probabilities = [count / len(text) for count in counts.values()]
-        return float(entropy(probabilities, base=2))
+        length = len(text)
+        return -sum((count / length) * math.log2(count / length) for count in counts.values())
 
     def _is_valid_base64(self, s: str) -> Tuple[bool, str]:
         """Check if string is valid base64 and returns decoded string if valid."""

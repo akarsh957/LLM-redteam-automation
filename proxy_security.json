@@ -1014,5 +1014,125 @@
         "total_attacks_blocked": 1,
         "details": "Known prompt injection pattern detected",
         "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-08-30 14:21:41",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-09-04 21:03:02",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-09-04 21:03:59",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 3.883
+    },
+    {
+        "timestamp": "2026-09-04 21:03:59",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 2,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-09-04 21:03:59",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 3,
+        "details": "Obfuscation / Base64: Base64 encoded payload detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-09-04 21:03:59",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 4,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-09-04 21:03:59",
+        "status": "blocked",
+        "attack_name": "Cyberattacks / Malicious Software",
+        "total_attacks_blocked": 5,
+        "details": "Safety policy violation [Cyberattacks / Malicious Software]",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-09-04 21:03:59",
+        "status": "blocked",
+        "attack_name": "Indiscriminate Weapons",
+        "total_attacks_blocked": 6,
+        "details": "Safety policy violation [Indiscriminate Weapons]",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-09-04 21:06:08",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-09-04 21:06:08",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 2,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-09-04 21:06:08",
+        "status": "blocked",
+        "attack_name": "Obfuscation / Base64",
+        "total_attacks_blocked": 3,
+        "details": "Obfuscation / Base64: Base64 encoded payload detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-09-04 21:06:08",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 4,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-09-04 21:06:08",
+        "status": "blocked",
+        "attack_name": "Cyberattacks / Malicious Software",
+        "total_attacks_blocked": 5,
+        "details": "Safety policy violation [Cyberattacks / Malicious Software]",
+        "latency_ms": 2.017
+    },
+    {
+        "timestamp": "2026-09-04 21:06:08",
+        "status": "blocked",
+        "attack_name": "Indiscriminate Weapons",
+        "total_attacks_blocked": 6,
+        "details": "Safety policy violation [Indiscriminate Weapons]",
+        "latency_ms": 0.0
+    },
+    {
+        "timestamp": "2026-09-04 21:10:36",
+        "status": "blocked",
+        "attack_name": "Prompt Injection",
+        "total_attacks_blocked": 1,
+        "details": "Known prompt injection pattern detected",
+        "latency_ms": 0.0
     }
 ]

@@ -292,3 +292,46 @@
 2026-08-30 10:28:50,717 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
 2026-08-30 10:28:56,813 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
 2026-08-30 10:28:59,140 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-09-04 21:03:59,512 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 3.883ms)
+2026-09-04 21:03:59,512 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-09-04 21:03:59,517 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:03:59,517 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-09-04 21:03:59,532 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-09-04 21:03:59,532 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:03:59,539 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: Obfuscation / Base64: Base64 encoded payload detected (Latency: 0.000ms)
+2026-09-04 21:03:59,564 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: Obfuscation / Base64: Base64 encoded payload detected
+2026-09-04 21:03:59,564 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:03:59,564 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-09-04 21:03:59,590 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-09-04 21:03:59,603 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:03:59,606 - WARNING - BLOCKED: [Cyberattacks / Malicious Software] - Details: Safety policy violation [Cyberattacks / Malicious Software] (Latency: 0.000ms)
+2026-09-04 21:03:59,623 - WARNING - BLOCKED: [Cyberattacks / Malicious Software] - Details: Safety policy violation [Cyberattacks / Malicious Software]
+2026-09-04 21:03:59,635 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:03:59,640 - WARNING - BLOCKED: [Indiscriminate Weapons] - Details: Safety policy violation [Indiscriminate Weapons] (Latency: 0.000ms)
+2026-09-04 21:03:59,656 - WARNING - BLOCKED: [Indiscriminate Weapons] - Details: Safety policy violation [Indiscriminate Weapons]
+2026-09-04 21:03:59,656 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:03:59,672 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:03:59,674 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:06:08,113 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-09-04 21:06:08,117 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-09-04 21:06:08,117 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:06:08,122 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-09-04 21:06:08,144 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-09-04 21:06:08,144 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:06:08,144 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: Obfuscation / Base64: Base64 encoded payload detected (Latency: 0.000ms)
+2026-09-04 21:06:08,160 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: Obfuscation / Base64: Base64 encoded payload detected
+2026-09-04 21:06:08,160 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:06:08,165 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-09-04 21:06:08,191 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-09-04 21:06:08,191 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:06:08,201 - WARNING - BLOCKED: [Cyberattacks / Malicious Software] - Details: Safety policy violation [Cyberattacks / Malicious Software] (Latency: 2.017ms)
+2026-09-04 21:06:08,227 - WARNING - BLOCKED: [Cyberattacks / Malicious Software] - Details: Safety policy violation [Cyberattacks / Malicious Software]
+2026-09-04 21:06:08,229 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:06:08,229 - WARNING - BLOCKED: [Indiscriminate Weapons] - Details: Safety policy violation [Indiscriminate Weapons] (Latency: 0.000ms)
+2026-09-04 21:06:08,262 - WARNING - BLOCKED: [Indiscriminate Weapons] - Details: Safety policy violation [Indiscriminate Weapons]
+2026-09-04 21:06:08,262 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:06:08,269 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:06:08,273 - INFO - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-09-04 21:10:36,386 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-09-04 21:10:36,386 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-09-04 21:10:51,448 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"

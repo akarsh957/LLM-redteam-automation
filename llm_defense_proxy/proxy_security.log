@@ -166,3 +166,60 @@
 2026-08-29 14:13:16,281 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
 2026-08-29 14:13:18,353 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
 2026-08-29 14:13:18,358 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-30 14:23:32,773 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-30 14:24:07,293 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-30 14:24:07,320 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-30 14:24:07,340 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-30 14:24:07,356 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-30 14:24:07,433 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-30 14:24:07,450 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: Obfuscation / Base64: Base64 encoded payload detected (Latency: 5.007ms)
+2026-08-30 14:24:07,549 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: Obfuscation / Base64: Base64 encoded payload detected
+2026-08-30 14:24:07,565 - WARNING - BLOCKED: [Cyberattacks / Malicious Software] - Details: Safety policy violation [Cyberattacks / Malicious Software] (Latency: 3.555ms)
+2026-08-30 14:24:07,629 - WARNING - BLOCKED: [Cyberattacks / Malicious Software] - Details: Safety policy violation [Cyberattacks / Malicious Software]
+2026-08-30 14:24:07,642 - WARNING - BLOCKED: [Indiscriminate Weapons] - Details: Safety policy violation [Indiscriminate Weapons] (Latency: 2.089ms)
+2026-08-30 14:24:07,698 - WARNING - BLOCKED: [Indiscriminate Weapons] - Details: Safety policy violation [Indiscriminate Weapons]
+2026-08-30 14:24:07,714 - WARNING - BLOCKED: [Privacy / PII] - Details: Safety policy violation [Privacy / PII] (Latency: 2.632ms)
+2026-08-30 14:24:07,763 - WARNING - BLOCKED: [Privacy / PII] - Details: Safety policy violation [Privacy / PII]
+2026-08-30 14:24:09,367 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-30 14:26:40,588 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-30 14:26:53,791 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-30 14:26:53,804 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-30 14:26:53,816 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-30 14:26:53,825 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-30 14:26:53,856 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-30 14:26:53,867 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: Obfuscation / Base64: Base64 encoded payload detected (Latency: 3.389ms)
+2026-08-30 14:26:53,905 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: Obfuscation / Base64: Base64 encoded payload detected
+2026-08-30 14:26:53,914 - WARNING - BLOCKED: [Cyberattacks / Malicious Software] - Details: Safety policy violation [Cyberattacks / Malicious Software] (Latency: 2.524ms)
+2026-08-30 14:26:53,939 - WARNING - BLOCKED: [Cyberattacks / Malicious Software] - Details: Safety policy violation [Cyberattacks / Malicious Software]
+2026-08-30 14:26:53,947 - WARNING - BLOCKED: [Indiscriminate Weapons] - Details: Safety policy violation [Indiscriminate Weapons] (Latency: 1.005ms)
+2026-08-30 14:26:53,974 - WARNING - BLOCKED: [Indiscriminate Weapons] - Details: Safety policy violation [Indiscriminate Weapons]
+2026-08-30 14:26:53,983 - WARNING - BLOCKED: [Privacy / PII] - Details: Safety policy violation [Privacy / PII] (Latency: 1.524ms)
+2026-08-30 14:26:54,014 - WARNING - BLOCKED: [Privacy / PII] - Details: Safety policy violation [Privacy / PII]
+2026-08-30 14:27:56,179 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-30 14:28:14,022 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-30 14:28:14,037 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-30 14:28:14,046 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-30 14:28:14,054 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-30 14:28:14,090 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-30 14:28:14,102 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: Obfuscation / Base64: Base64 encoded payload detected (Latency: 1.998ms)
+2026-08-30 14:28:14,139 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: Obfuscation / Base64: Base64 encoded payload detected
+2026-08-30 14:28:14,149 - WARNING - BLOCKED: [Cyberattacks / Malicious Software] - Details: Safety policy violation [Cyberattacks / Malicious Software] (Latency: 2.507ms)
+2026-08-30 14:28:14,178 - WARNING - BLOCKED: [Cyberattacks / Malicious Software] - Details: Safety policy violation [Cyberattacks / Malicious Software]
+2026-08-30 14:28:14,188 - WARNING - BLOCKED: [Indiscriminate Weapons] - Details: Safety policy violation [Indiscriminate Weapons] (Latency: 1.998ms)
+2026-08-30 14:28:14,215 - WARNING - BLOCKED: [Indiscriminate Weapons] - Details: Safety policy violation [Indiscriminate Weapons]
+2026-08-30 14:28:14,222 - WARNING - BLOCKED: [Privacy / PII] - Details: Safety policy violation [Privacy / PII] (Latency: 1.524ms)
+2026-08-30 14:28:14,244 - WARNING - BLOCKED: [Privacy / PII] - Details: Safety policy violation [Privacy / PII]
+2026-08-30 14:30:23,903 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-30 14:30:30,254 - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-08-30 14:30:30,260 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-30 14:30:30,266 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-30 14:30:30,271 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected (Latency: 0.000ms)
+2026-08-30 14:30:30,288 - WARNING - BLOCKED: [Prompt Injection] - Details: Known prompt injection pattern detected
+2026-08-30 14:30:30,295 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: Obfuscation / Base64: Base64 encoded payload detected (Latency: 2.010ms)
+2026-08-30 14:30:30,306 - WARNING - BLOCKED: [Obfuscation / Base64] - Details: Obfuscation / Base64: Base64 encoded payload detected
+2026-08-30 14:30:30,311 - WARNING - BLOCKED: [Cyberattacks / Malicious Software] - Details: Safety policy violation [Cyberattacks / Malicious Software] (Latency: 1.064ms)
+2026-08-30 14:30:30,327 - WARNING - BLOCKED: [Cyberattacks / Malicious Software] - Details: Safety policy violation [Cyberattacks / Malicious Software]
+2026-08-30 14:30:30,336 - WARNING - BLOCKED: [Indiscriminate Weapons] - Details: Safety policy violation [Indiscriminate Weapons] (Latency: 1.012ms)
+2026-08-30 14:30:30,356 - WARNING - BLOCKED: [Indiscriminate Weapons] - Details: Safety policy violation [Indiscriminate Weapons]
+2026-08-30 14:30:30,362 - WARNING - BLOCKED: [Privacy / PII] - Details: Safety policy violation [Privacy / PII] (Latency: 2.032ms)
+2026-08-30 14:30:30,385 - WARNING - BLOCKED: [Privacy / PII] - Details: Safety policy violation [Privacy / PII]

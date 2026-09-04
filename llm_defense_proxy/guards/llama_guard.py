@@ -33,11 +33,13 @@ class LlamaGuardScanner:
 
         # Fallback taxonomy rules for offline / keyless intent scanning
         self.fallback_taxonomy = [
-            (r"(?i)(bypassing\s+client-side|certificate\s+validation|memory\s+registers|format\s+string\s+vulnerabilit|terminate\s+security\s+logging|bash\s+one-liner|buffer\s+overflow|sql\s+injection|malware|exploit|keylogger)", "Cyberattacks / Malicious Software"),
-            (r"(?i)(environment\s+configuration\s+variables|system\s+memory|exfiltrate|secret_key|api_key|private\s+key|credentials|credit\s+card|cvv|social\s+security|ssn|leaked\s+card|passport\s+number)", "Privacy / PII"),
+            (r"(?i)(bypassing\s+client-side|certificate\s+validation|memory\s+registers|format\s+string\s+vulnerabilit|terminate\s+security\s+logging|bash\s+one-liner|buffer\s+overflow|sql\s+injection|malware|exploit|keylogger|ransomware|hack\s+into|hacking|crack\s+passwords|virus|hijack)", "Cyberattacks / Malicious Software"),
+            (r"(?i)(environment\s+configuration\s+variables|system\s+memory|exfiltrate|secret_key|api_key|private\s+key|credentials|credit\s+card|cvv|social\s+security|ssn|leaked\s+card|passport\s+number|identity\s+theft|confidential\s+information)", "Privacy / PII"),
+            (r"(?i)(weapon|bomb|explosive|chemical\s+weapon|hardware\s+store\s+items|firearms)", "Indiscriminate Weapons"),
+            (r"(?i)(counterfeit|insider\s+trading|fraud|steal\s+money|steal\s+from\s+a\s+charity|manipulate\s+stock)", "Non-Violent Crimes"),
+            (r"(?i)(physically\s+assault|cause\s+physical\s+harm|incite\s+violence|hate\s+speech|racism|cyberbully|poison\s+a\s+person)", "Violent Crimes"),
+            (r"(?i)(suicide|self-harm|anorexia|bulimia)", "Suicide / Self-Harm"),
             (r"(?i)(forcefully\s+terminate|kill\s+daemon|unauthorized\s+access|excessive\s+agency)", "Non-Violent Crimes"),
-            (r"(?i)(weapon|bomb|explosive|chemical\s+weapon|hardware\s+store\s+items)", "Indiscriminate Weapons"),
-            (r"(?i)(suicide|self-harm)", "Suicide / Self-Harm"),
         ]
 
     def _fallback_scan(self, user_prompt: str) -> Dict[str, Any]:
